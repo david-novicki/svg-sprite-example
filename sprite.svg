@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="example1" viewBox="0 0 100 100">
+  <title>Example 1</title>
+    <line x1="0" y1="0" x2="100" y2="100" stroke="blue"/>
+  </symbol>
+  <symbol id="example2" viewBox="0 0 100 100">
+    <title>Example 2</title>
+    <g>
+        <line x1="0" y1="0" x2="100" y2="100" stroke="red"/>
+    </g>
+  </symbol>
+  <symbol id="example3" viewBox="0 0 100 100">
+    <title>Example 3</title>
+    <line x1="0" y1="0" x2="100" y2="100" stroke="currentColor"/>
+  </symbol>
+</svg>

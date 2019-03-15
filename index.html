@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>SVG Sprite Example</title>
+    <meta name="description" content="SVG Sprite Example" />
+    <meta name="author" content="David Novicki" />
+    <style>
+      .color-svg {
+        width: 150px;
+        height: 150px;
+      }
+      .color-svg:hover {
+        color: green !important;
+      }
+      .larger {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>SVG Sprite Example</h1>
+    <svg class="color-svg">
+      <use xlink:href="sprite.svg#example1"></use>
+    </svg>
+    <svg class="color-svg larger">
+      <use xlink:href="sprite.svg#example2"></use>
+    </svg>
+    <svg class="color-svg" style="color: purple">
+      <use xlink:href="sprite.svg#example3"></use>
+    </svg>
+  </body>
+</html>
